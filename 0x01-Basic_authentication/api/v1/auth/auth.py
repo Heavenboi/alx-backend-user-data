@@ -35,4 +35,3 @@ class Auth():
     def current_user(self, request=None) -> TypeVar('User'):  # type: ignore
         """public method that returns None - request will be public"""
         return None
-

@@ -70,4 +70,3 @@ class BasicAuth(Auth):
         user_credentials = self.extract_user_credentials(decoded_header)
         return self.user_object_from_credentials(
             user_credentials[0], user_credentials[1])
-
